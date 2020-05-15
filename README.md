@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Word Frequency
 
-## Available Scripts
+**Tier:** 1-Beginner
 
-In the project directory, you can run:
+Calculating the frequency of words in a block of text is a technique which has
+various uses in algorithms such as searching, sorting, and semantic analysis.
+The objective of the Word Frequency app is count the frequency of words in a
+block of text and create a tabular display of each unique word in the text
+along with its frequency, in descending order by frequency.
 
-### `yarn start`
+## User Stories
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   [x] User can see a text input box, a 'Translate' button, and a word
+        frequency table.
+-   [x] User can enter text (or cut and paste) into the input box. This input
+        box must allow the entry of large blocks of text (maximum of 2048 characters).
+-   [x] User can click the 'Translate' button to analyze the word frequency in
+        the text that has been input.
+-   [x] User can see an error message if the text input box is empty.
+-   [x] User can see the word frequency table populated when the 'Translate'
+        button is clicked. Each row in the table contains a word and the number of times
+        it occurs in the input text.
+-   [x] User can see the word frequency table ordered in descending sequence
+        by word frequency.
+       
+## Bonus features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+-   [ ] User can see a graphical representation of the word frequency in a
+        bubble chart, column chart, or any other form of graphical representation the
+        developer chooses.
+-   [ ] User may choose to enter the URL of a web page whose content is to be
+        analyzed instead of manually entering text. (Hint: See the
+        [Podcast Directory](../2-Intermediate/Podcast-Directory-App.md) application for ideas).
 
-### `yarn test`
+## Extra 
+-   [x] User can change the table order in descending sequence or ascending sequence by word frequency.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Useful links and resources
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   [Bag of Words Model (Wikipedia)](https://en.wikipedia.org/wiki/Bag-of-words_model)
+-   [Semantic Analysis (Wikipedia)](https://en.wikipedia.org/wiki/Sentiment_analysis)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Example projects
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Word Frequency Counter](https://codepen.io/maxotar/pen/aLrwJM)
+- [Bubble Chart](https://codepen.io/Quendoline/pen/pjELpM)
+- [Svelte Word Frequency by Gabriele Corti](https://codepen.io/borntofrappe/pen/QWWWqQM)
